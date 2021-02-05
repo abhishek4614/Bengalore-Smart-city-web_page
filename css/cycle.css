@@ -1,0 +1,136 @@
+.uch
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 4rem 60vh;
+    margin: 2% 3%;
+}
+.chp
+{
+   background-color: cornflowerblue;
+}
+.chp h2
+{
+   margin: 1% 2%;
+    font-weight: bolder;
+    font-size: 3.2rem;
+   
+}
+
+.chi img
+{
+    width: 100%;
+    height: 100%;
+}
+.cis
+{
+    
+    grid-column: 1/-1;
+    overflow-y: scroll;
+}
+.cis img
+{
+ width: 100%;
+  height: 100%;
+    
+}
+.clp
+{
+display: grid;
+grid-template-columns: 1fr 1fr;
+margin: 2% 3%;
+grid-gap: 1%;
+}
+.clbpl
+{
+border: none;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clbprd
+{
+border: none;
+}
+.clbpl img
+{
+width: 100%;
+height: 30vh;
+}
+.clbpr{
+
+display: grid;
+grid-template-columns: 1fr 1fr;
+grid-template-rows: 1fr 1fr;
+text-align: center;
+}
+.clb1
+{
+ 
+font-family: Georgia, 'Times New Roman', Times, serif;
+border: 1px solid black;
+}
+.clb2
+{
+border: 1px solid black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clb3
+{
+border: 1px solid black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clb4
+{
+border: 1px solid black;
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.cbp{
+font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.clbpl h2
+{
+background-color: cadetblue;
+text-align: center;
+margin: auto;
+}
+@media(max-width: 700px)
+{
+.chp h2{
+text-align: center;
+}
+.chi
+{
+
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+.clp
+{
+grid-template-columns: 1fr;
+
+}
+.clbpr{
+grid-template-columns: 1fr;
+}
+}
+@media(max-width: 900px)
+{
+.chp h2{
+text-align: center;
+}
+.chi
+{
+
+display: inline-flex;
+justify-content: center;
+align-items: center;
+}
+.clp
+{
+grid-template-columns: 1fr;
+
+}
+.clbpr{
+grid-template-columns: 1fr;
+}  
+}

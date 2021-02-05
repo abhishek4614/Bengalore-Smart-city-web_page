@@ -1,0 +1,272 @@
+.logoheader{
+width: 100%;
+height: 53px;
+padding: 0px 2%;
+display: inline-block;
+background-color: #ffffff !important;
+}
+ 
+.logo1div{
+  padding: 0% 5%;
+  display: inline-block;
+  height: 50px;
+
+ }
+
+ .logo2div{
+  padding: 0% 1%;
+  float: right;
+  display: inline-block;
+  height: 50px;
+}
+
+.logo3div{
+  padding: 0% 1%;
+  float: right;
+  display: inline-block;
+  height: 50px;
+}
+
+.logo4div{
+  padding: 0% 1%;
+  float: right;
+  display: inline-block;
+  height: 50px;
+}
+ 
+ .l1{
+  width: auto;
+  height: 100%;
+ }
+
+ .l2{
+  width: auto;
+  height: 100%;
+}
+
+.l3{
+  width: auto;
+  height: 100%;
+}
+
+.l4{
+width: auto;
+height: 100%;
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ #container {
+    margin: 0 auto;
+    max-width: 890px;
+  }
+
+.menu{
+  margin-left: 10%;
+  margin-right: 5%;
+}
+
+  .toggle,
+  [id^=drop] {
+    display: none;
+  }
+
+  .navbardiv{
+    z-index: 10;
+    position: sticky;
+    top: 0%;
+  }
+
+  nav {
+    margin: 0;
+    padding: 0;
+    background-color: #1481a5;
+    height: 60px;
+  }
+
+  #logo {
+    display: block;
+    padding: 0 30px;
+    float: left;
+    font-size: 20px;
+    line-height: 60px;
+  }
+
+  nav:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  nav ul {
+    float: none;
+    padding: 0;
+    margin: 0%;
+    list-style: none;
+    position: relative;
+  }
+
+  nav ul li {
+    z-index: 5;
+    margin: 0%;
+    display: inline-block;
+    float: left;
+    background-color:#1481a5;
+  }
+
+  nav a {
+    display: inline-block;
+    padding: 0 20px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: 60px;
+    text-decoration: none;
+  }
+
+  nav ul li ul li:hover {
+    background: #000000;
+    color: #ffffff;
+  }
+
+  nav a:hover {
+    background-color: #000000;
+  }
+
+  nav ul ul {
+    display: none;
+    position: absolute;
+    top: 60px;
+  }
+
+
+  nav ul li:hover>ul {
+    display: inherit;
+  }
+
+  nav ul ul li {
+    width: auto;
+    float: none;
+    display: list-item;
+    position: relative;
+  }
+  
+
+  nav ul ul ul li {
+    position: relative;
+    top: -60px;
+    left: 170px;
+  }
+
+  li>a:after {
+    content:  '▼';
+  }
+
+  li>a:only-child:after {
+    content: '';
+  }
+
+
+  /* Media Queries
+--------------------------------------------- */
+
+  @media all and (max-width : 768px) , (max-width : 1325px) {
+
+    #logo {
+      display: block;
+      padding: 0;
+      width: 100%;
+      text-align: center;
+      float: none;
+    }
+
+    nav {
+      margin: 0;
+    }
+
+    .toggle+a,
+    .menu {
+      margin-left: 0;
+      display: none;
+    }
+
+    .toggle {
+      display: block;
+      background-color:#1481a5;
+      padding: 0 20px;
+      color: #FFF;
+      font-size: 22px;
+      font-weight: bold;
+      line-height: 60px;
+      text-decoration: none;
+      border: none;
+    }
+
+    .toggle:hover {
+      background-color:#000000;
+    }
+
+    [id^=drop]:checked+ul {
+      display: block;
+    }
+
+    nav ul li {
+      display: block;
+      width: 100%;
+    }
+
+    nav ul ul .toggle,
+    nav ul ul a {
+      padding: 0 40px;
+    }
+
+    nav ul ul ul a {
+      padding: 0 80px;
+    }
+
+    nav a:hover,
+    nav ul ul ul a {
+      background-color:#000000;
+    }
+
+    nav ul li ul li .toggle,
+    nav ul ul a {
+      background-color: #1481a5;
+      display: block;
+    }
+
+    nav ul ul {
+      float: none;
+      position: static;
+      color: #ffffff;
+    }
+
+    nav ul ul li:hover>ul,
+    nav ul li:hover>ul {
+      display: none;
+    }
+
+    nav ul ul li {
+      display: block;
+      width: 100%;
+    }
+
+    nav ul ul ul li {
+      position: static;
+
+    }
+  }
+
+  @media all and (max-width : 330px) {
+
+    nav ul li {
+      display: block;
+      width: 100%;
+    }
+
+  }

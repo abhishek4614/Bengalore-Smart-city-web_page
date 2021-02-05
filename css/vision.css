@@ -1,0 +1,28 @@
+.mdiv{
+    background-color: #eff0e6;
+    height: auto;
+    width: auto;
+    
+}
+
+.childdiv{
+    margin: auto 10%;   
+}
+
+.cheading{
+    margin: 1% 20%;
+  
+}
+
+
+.vcontent{
+    text-align: justify;
+    margin: auto 20%;
+    line-height: 1.5;
+}
+
+.abc{
+    text-align: justify;
+margin-left: 3%;
+line-height: 1.5;
+}

@@ -1,0 +1,314 @@
+.contain{
+background:#ffffff;
+border-style: outset;
+margin: 0px 5% 0px 3.5% ;
+height: 100%;
+
+}
+.twitter-timeline{
+  width: 100%;
+}
+/*padding: 80px 20px;*/
+.contentdiv{
+  background: #e6eded;
+  height: 500px;
+  padding-bottom: 5px;
+  color: #19212f;
+  align-self: center;
+  margin-top: 1%;
+  margin-bottom: 1%;
+  width: 100%;
+  margin: 0% auto;
+}
+
+.heading{
+  padding-top: 10px;
+height: 40px;
+color:#ffffff !important;
+text-align: center;
+background: #1481a5;
+}
+
+
+
+.maincontent{
+color: #19212f;
+align-self: center;
+overflow: auto;
+height: 85%;
+width: auto;
+margin: 0% 15%;
+justify-content: center;
+}
+
+.news{
+  border-style: ridge;
+  background-color: #ebe8d5;
+  display: inline-flex;
+  width: 100%;
+  height: 50px;
+}
+
+
+
+
+.box {
+  border-style: ridge;
+  color: #000000;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.fi   {
+  background: linear-gradient(to top left, #ccffff 0%, #ffffff 100%);
+   height: 350px;
+   width: 350px;
+   margin-left: 15% !important;
+
+  }
+  .fi div{
+    visibility: hidden;
+    height: 285px;
+   width: 100%;
+  }
+  .fi:hover div{
+    background: linear-gradient(to bottom right, #ffffcc 0%, #ccffff 100%);
+       visibility: visible;
+    
+     }
+    .fi ul{
+      width: 100%;
+      list-style: none;
+      display: contents;
+    }
+  .fi ul li{
+    line-height: 1;
+    width: 100%;
+    padding: 5% 0px;
+    margin: 5% 0px;
+  }
+  .fi ul a{
+    font-size: 16px !important;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+  }
+ 
+  .fi ul li:hover{
+    background-color:#1481a5;
+  }
+  .fi ul li a:hover{
+    background-color: #1481a5;
+    color: black;
+  }
+
+.s  { 
+  background: linear-gradient(to top left, #ccffff 0%, #ffffff 100%);
+   height: 350px;
+  width: 350px;
+
+  }
+  .s div{
+    visibility: hidden;
+    height: 285px;
+   width: 100%;
+  }
+  .s:hover div{
+    background: linear-gradient(to bottom right, #ffffcc 0%, #ccffff 100%);
+       visibility: visible;
+    
+     }
+    .s ul{
+      width: 100%;
+      list-style: none;
+      display: contents;
+    }
+  .s ul li{
+    line-height: 1;
+    width: 100%;
+    padding: 4% 0px;
+    margin: 3% 0px;
+  }
+  .s ul a{
+    font-size: 16px !important;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+  }
+
+  .s ul li:hover{
+    background-color: #1481a5;
+  }
+  .s ul li a:hover{
+    background-color: #1481a5;
+    color: black;
+  }
+
+
+
+
+.t   {
+  background: linear-gradient(to top left, #ccffff 0%, #ffffff 100%);
+  height: 350px;
+   width: 350px;
+
+ }
+
+ .t div{
+  visibility: hidden;
+  height: 285px;
+ width: 100%;
+}
+.t:hover div{
+  background: linear-gradient(to bottom right, #ffffcc 0%, #ccffff 100%);
+     visibility: visible;
+  
+   }
+  .t ul{
+    list-style: square;
+    width: 100%;
+  }
+.t ul li{
+  line-height: 1;
+  width: 100%;
+  padding: 4% 0px;
+  margin: 3% 0px;
+  color: #000000;
+}
+.t ul a{
+  font-size: 16px !important;
+  text-align: left;
+  color: #000000;
+}
+
+.t ul li:hover{
+  background-color: #1481a5;
+  color: #000000;
+}
+.t ul li a:hover{
+  background-color: #1481a5;
+  color: black;
+}
+
+
+
+
+
+
+.f { 
+  background: linear-gradient(to top left, #ccffff 0%, #ffffff 100%);
+  height: 350px;
+   width: 350px;
+ 
+   }
+   .f div{
+    visibility: hidden;
+    height: 285px;
+   width: 100%;
+  }
+  .f:hover div{
+    background: linear-gradient(to bottom right, #ffffcc 0%, #ccffff 100%);
+       visibility: visible;
+    
+     }
+    .f ul{
+      width: 100%;
+      list-style: none;
+      display: contents;
+    }
+  .f ul li{
+    line-height: 1;
+    width: 100%;
+    padding: 3% 0px;
+    margin: 3% 0px;
+  }
+  .f ul a{
+    font-size: 16px !important;
+    text-align: left;
+    text-decoration: none;
+    color: #000000;
+  }
+  .f ul li:hover{
+    background-color: #1481a5;
+  }
+  .f ul li a:hover{
+    background-color: #1481a5;
+    color: black;
+  }
+
+
+
+
+
+
+/* Our Grid Code */
+.app-layout {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+/* try to resize the screen */
+@media screen and (max-width: 1500px) {
+  .fi{
+    margin-left: 5% !important;
+  }
+  .app-layout {
+    margin: 3% 15%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
+}
+
+@media screen and (max-width: 1340px) {
+  .fi{
+    margin-left: 5% !important;
+  }
+  .app-layout {
+    margin: 3% 10%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
+}
+
+@media screen and (max-width: 900px) {
+  .fi{
+    margin-left: 5% !important;
+  }
+  .app-layout {
+    margin: 3% 5%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .fi{
+    margin-left: 5% !important;
+  }
+  .app-layout {
+    margin: 3% 2%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
+}
+
+
+/* try to resize the screen */
+@media screen and (max-width: 1024px) {
+  .fi{
+    margin-left: 5% !important;
+  }
+  .app-layout {
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50vh 50vh;
+  }
+}
+
+
+

@@ -1,0 +1,238 @@
+.msmart{
+    background-color: ivory;
+    width: auto;
+}
+ .ssmart{
+     margin:3% 35%;
+ }
+/*s 
+ 
+ }
+ .fsmartt{
+
+    background-color: ivory;
+ }
+
+ 
+  
+ */ 
+
+
+ .fsmart{
+    margin-left: 30% ;
+}
+ 
+.fsmarrt{
+
+    margin-left: 2%;  
+}
+
+
+
+.fsmarttt{
+    margin-left: 5%;    
+    margin-right:2% ;
+    overflow: auto;
+    padding: auto 3%;
+}
+.smarrt{
+    overflow: auto;
+    padding: auto 3%;
+}
+
+.grid-container{
+    display: block;
+}
+
+.grid-container1{
+
+    display: inline-flex;
+    height: auto;
+
+}
+
+.grid-container2{
+    display: inline-flex;
+    height: auto;
+
+}
+.grid-iteam1{
+    margin-left: 5%;
+    margin-right: 3%;
+    display: grid;
+    height: 400px;
+    width: 100%;
+    
+}
+.grid-iteam2{
+    overflow: hidden;
+    margin-right: 2%;
+    margin-top: 6%;
+    display: grid;
+    height: 400px;
+    width:90%;
+}
+
+.grid-iteam2 figure {
+     position: relative;
+     width: 100%;
+     margin: 0;
+    animation: 20s grid-iteam2 infinite
+}
+
+.grid-iteam2 figure img{
+    border-radius: 5px;
+    width: 20%;
+    float: left;
+}
+
+.grid-iteam2 figure{
+    position: relative;
+    width: 500%;
+    margin: 0px;
+    left: 0;
+
+} 
+
+@keyframes grid-iteam2{
+     
+    0%{
+       left:0% ;
+    }
+
+
+    20%{
+        left:0% ;
+    }
+
+     
+    25%{
+        left:-100% ;
+    }
+
+     
+   45%{
+        left:-100% ;
+    }
+
+     
+    50%{
+        left:-200% ;
+    }
+
+     
+    70%{
+        left:-200% ;
+    }
+
+     
+    75%{
+        left:-300% ;
+    }
+
+     
+    95%{
+        left:-300% ;
+    }
+
+     
+    100%{
+        left:-400% ;
+    }
+
+   
+}
+
+
+
+
+.grid-iteam3{
+    overflow: hidden;
+    margin-left: 5%;
+    margin-right: 3%;
+    margin-top: 6%;
+    display: grid;
+    height: 400px;
+    width: 90%;
+}
+
+.grid-iteam3 figure {
+    position: relative;
+    width: 100%;
+    margin: 0;
+   animation: 20s grid-iteam3 infinite
+}
+
+.grid-iteam3 figure img{
+   border-radius: 5px;
+   width: 20%;
+   float: left;
+}
+
+.grid-iteam3 figure{
+   position: relative;
+   width: 500%;
+   margin: 0px;
+   left: 0;
+
+} 
+
+
+
+@keyframes grid-iteam3{
+     
+    0%{
+       left:0% ;
+    }
+
+
+    20%{
+        left:0% ;
+    }
+
+     
+    25%{
+        left:-100% ;
+    }
+
+     
+   45%{
+        left:-100% ;
+    }
+
+     
+    50%{
+        left:-200% ;
+    }
+
+     
+    70%{
+        left:-200% ;
+    }
+
+     
+    75%{
+        left:-300% ;
+    }
+
+     
+    95%{
+        left:-300% ;
+    }
+
+     
+    100%{
+        left:-400% ;
+    }
+
+   
+}
+
+
+
+.grid-iteam4{
+    display: grid;
+    height: 400px;
+    width: fit-content;
+}
+

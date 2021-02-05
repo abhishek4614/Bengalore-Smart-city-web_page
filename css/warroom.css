@@ -1,0 +1,213 @@
+
+.containar { max-width: 22%; margin: 0 auto;
+margin-left: 5%;
+margin-bottom: 2%;}
+.round { border-radius: 50%; 
+  width: 50px;
+  height: 50px;
+}
+.shader img:hover
+{
+  box-shadow: 10px 10px 10px 10px gray;
+}
+
+.shader {
+display: inline-flex;
+position: relative;
+}
+.shader:after {
+border-radius: 50%;
+
+content: "";
+height: 100%;
+/* position: absolute; */
+width: 100%;
+}
+.round2
+{
+  position: relative;
+  left: 42rem;
+  border-radius: 50%;
+}
+#slideh
+{
+
+color: tomato;
+margin-left: 3%;
+}
+
+/* paragraph css from here */
+.wrapper {
+width: 90%;
+margin: 0 auto;
+position: relative;
+
+top: 45%;
+}
+
+.sidebar {
+width: 31%;
+margin-right: 2.08334%;
+height: auto;
+}
+.sidebar ul li
+{
+  list-style: none;
+}
+.sidebar li a
+{
+text-decoration: none;
+font-weight: bold;
+font-size: 1.2em;
+color: black;
+
+}
+.sidebar li a:hover
+{
+  color: red;
+  
+}
+.sidebar ul li button:hover
+{
+  border-radius: 5%;
+  box-shadow: 5px 3px 5px 5px rgb(77, 75, 75);
+}
+.sidebar ul li button
+{
+padding: 3% 6%;
+width: 80%;
+
+}
+.content {
+width: 66.66667%;
+height: auto;
+overflow-y: scroll;
+
+}
+.content p
+{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.2rem;
+}
+
+/**********************************
+Code that just makes it look nice
+***********************************/
+
+.sidebar, .content {
+background: #888;
+height: 250px;
+float: left;
+border-radius: 4px;
+color:white;
+font-family: Helvetica;
+text-align: center;
+}
+
+#eh1 {
+padding: 10px 5px;
+font-size: 1em;
+color: black;
+
+}
+#eh12
+{
+color: black; 
+}
+p
+{
+margin: 0% 1% 1% 1%;
+}
+ul li a 
+{
+
+}
+/* slider code start here */
+#slideh
+{
+margin-top: 0px; 
+color: black;
+}
+
+:root {
+--gutter: 1px;
+
+}
+
+.horizontal-slider-container{
+  height: 30vh;
+}
+.horizonal-slider {
+display: grid;
+grid-gap: calc(var(--gutter) / 2);
+grid-template-columns: repeat(6, calc(50% - var(--gutter) * 2));
+grid-template-rows:(30vh, 2%);
+
+overflow-x: scroll;
+/* scroll-snap-type: x proximity; */
+padding-bottom: calc(.75 * var(--gutter));
+margin-bottom: calc(-.25 * var(--gutter));
+list-style: none;
+padding: .5;
+background:white;
+height: 50vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.item {
+scroll-snap-align: center;
+padding: calc(var(--gutter) / 2 * 1.5);
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+background: #fff;
+border-radius: 8px;
+background-color:gainsboro;
+width: 90%;
+
+}
+
+.item img:hover
+{
+
+box-shadow: 10px 10px 10px 10px;
+}
+.spara
+{
+margin-top: 23%;
+margin-left: 5%;
+margin-right: 5%;
+}
+.spara h2
+{
+color: rgba(0, 0, 75, 0.993);
+}
+
+@media(max-width: 700px)
+{
+.containar img
+{
+ display: flex;
+ justify-content: center;
+ align-items: center; 
+}
+.wrapper{
+    grid-template-columns:1fr;
+}
+.content
+{
+  display: flex;
+  flex-wrap:wrap;
+  justify-content: center;
+  align-items: center;
+  margin:3% 2%;
+  text-align: center;
+}
+.horizonal-slider
+{
+  grid-template-columns:1fr;
+  height: 300px;
+}
+}

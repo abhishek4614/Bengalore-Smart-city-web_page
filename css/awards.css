@@ -1,0 +1,57 @@
+.mawards{
+    height: 100%;
+    width: 100%;
+}
+
+.awardsbackdiv{
+    height: 450px;
+    width: 100%;
+    background-image: url(../images/awardsimage.png);
+    background-size: 450px 100%;
+    position: absolute;
+   
+}
+
+
+.carddiv{
+    display: grid;
+    margin: auto 15%;
+    background-color: wheat;
+}
+
+.awardsh{
+    display: inline-flex;
+    width: 100%;
+
+}
+
+.tawards{
+
+}
+
+.space{
+height: 3px;
+width: 100%;
+background-color: #ffffff;
+}
+
+.awardspara{
+    display: inline-flex;
+    width: 60%;
+    float: left;
+        
+}
+
+.allimg{
+    display: inline-flex;
+    width: 30%;
+   margin-left: 50%;
+    height: 100%;
+    float: right;
+
+}
+
+.imgpage{
+    width: 100%;
+    height: 100%;
+}

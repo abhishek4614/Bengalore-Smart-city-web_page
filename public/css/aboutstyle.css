@@ -1,0 +1,49 @@
+.pagecontent{
+  background: #e6eded;
+  height: 100%;
+  width: 95%;
+  color: #19212f;
+  text-align: none;
+  padding: 3%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+
+}
+.contain{
+background: #b4cfc3;
+border-style: outset;
+margin: auto 5% ;
+
+}
+
+/*padding: 80px 20px;*/
+.contentdiv{
+  background: #e6eded;
+  height: 90%;
+  width: 95%;
+  color: #19212f;
+  text-align: none;
+  padding: 3%;
+  margin: auto;
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
+
+.heading{
+
+color: white;
+text-align: center;
+background: #16915d;
+}
+
+
+
+.maincontent{
+color: #19212f;
+text-align: center;
+overflow-x: auto;
+overflow-y: auto;
+height: 100%;
+}
+
